@@ -12,7 +12,7 @@ function Card() {
   return (
     <div
       className={
-        showcount == 0 ? style.ride : showcount == 1 ? style.drive : style.rent
+        showcount === 0 ? style.ride : showcount === 1 ? style.drive : style.rent
       }
     >
       <div className={style.main}>
@@ -29,7 +29,7 @@ function Card() {
             <HiKey /> <p align="center">Rent your fleet</p>
           </li>
         </ul>
-        {showcount == 0 ? <Ride /> : showcount == 1 ? <Drive /> : <Rent />}
+        {showcount === 0 ? <Ride /> : showcount === 1 ? <Drive /> : <Rent />}
       </div>
     </div>
   );

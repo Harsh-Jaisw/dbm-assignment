@@ -1,0 +1,61 @@
+
+.head h1{
+    padding: 33px;
+    font-size: 43px;
+}
+ .ride .uber{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.uber .auto {
+    display: flex;
+    margin-top: 33px;
+    cursor: pointer;
+}
+.uber .auto img{
+    margin-inline: 33px;
+    width: 43%;
+    cursor: pointer;
+}
+
+.safe{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 33px;
+    cursor: pointer;
+}
+.style.p{
+    font-size: larger;
+}
+
+.app{
+    background-color: rgb(210, 209, 209);
+}
+.app h1{
+    padding: 33px;
+    font-size: 44px;
+}
+ .down{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 35px;
+    cursor: pointer;
+}
+span{
+    font-size: 2rem;
+    cursor: pointer;
+    cursor: pointer;
+}
+span:hover {
+    transform: translateX(15px);
+    transition: transform 0.1s ease;
+    cursor: pointer;
+    
+  }
+.content{
+    font-size: medium;
+}
+  

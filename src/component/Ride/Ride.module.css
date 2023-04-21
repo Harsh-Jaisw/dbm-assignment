@@ -1,0 +1,37 @@
+.main{
+    display: flex;
+flex-direction: column;
+margin-left: 2.5rem;
+gap:1rem;
+}
+.ride{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.inp{
+    height: 3rem;
+    width:30rem;
+    background-color: gainsboro;
+    border:none ;
+}
+::placeholder{
+    font-size: x-large;
+    padding: 0.5rem;
+}
+.bigDiv{
+    display: flex;
+    gap: 3rem;
+}
+.req{
+    background-color: black;
+    color: white;
+    padding: 0.7rem;
+   border-radius: 7px;
+   font-weight: 500;
+}
+.sch{
+    background-color: gainsboro;
+    padding: 1rem;
+   border-radius: 7px;
+   font-weight: 500;
+}

@@ -3,9 +3,9 @@ import { AiFillCar } from "react-icons/ai";
 import { BsFillBarChartFill } from "react-icons/bs";
 import { HiKey } from "react-icons/hi";
 import style from "./Card.module.css";
-import Ride from "../Ride";
-import Drive from "../drive";
-import Rent from "../Rent";
+import Ride from "../Ride/Ride";
+import Drive from "../Drive/Drive"
+import Rent from "../Rent/Rent";
 
 function Card() {
   const [showcount, setShowCount] = useState(0);
@@ -18,15 +18,15 @@ function Card() {
       <div className={style.main}>
         <ul className={style.listItem}>
           <li onClick={() => setShowCount(0)} className={style.list}>
-            <AiFillCar /> Ride
+            <AiFillCar /> <p align="center">Ride</p>
           </li>
           <li onClick={() => setShowCount(1)} className={style.list}>
             {" "}
             <BsFillBarChartFill />
-            Drive or deliver
+           <p align="center"> Drive or deliver</p>
           </li>
           <li onClick={() => setShowCount(2)} className={style.list}>
-            <HiKey /> Rent your fleet
+            <HiKey /> <p align="center">Rent your fleet</p>
           </li>
         </ul>
         {showcount == 0 ? <Ride /> : showcount == 1 ? <Drive /> : <Rent />}

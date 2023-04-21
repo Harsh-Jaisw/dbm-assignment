@@ -1,6 +1,6 @@
 
 .head h1{
-    padding: 33px;
+    padding-left: 10rem;
     font-size: 43px;
 }
  .ride .uber{
@@ -22,7 +22,6 @@
 .safe{
     display: flex;
     justify-content: center;
-    justify-content: space-around;
     margin-top: 33px;
     cursor: pointer;
 }
@@ -44,12 +43,12 @@
     padding: 35px;
     cursor: pointer;
 }
-span{
+.arrow{
     font-size: 2rem;
     cursor: pointer;
     cursor: pointer;
 }
-span:hover {
+.arrow:hover {
     transform: translateX(15px);
     transition: transform 0.1s ease;
     cursor: pointer;

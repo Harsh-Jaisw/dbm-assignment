@@ -1,5 +1,5 @@
 .main{
-    height:30rem;
+    height:32rem;
     width:35rem;
     background-color: #FFFFFF;
     position: relative;
@@ -17,9 +17,10 @@
 .list{
     display:flex;
     flex-direction:column;
-    justify-content: space-evenly;
+    margin-top: 1rem;
+    /* justify-content: center; */
     align-items: center;
-    gap:1rem;
+    font-weight: 600;
     width:5rem;
 }
 .ride{

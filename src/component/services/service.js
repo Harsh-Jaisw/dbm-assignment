@@ -20,7 +20,7 @@ export default function Service() {
               <h2>Uber Moto</h2>
               <p>Get affordable uber auto ride with no hangling.</p>
             </div>
-            <span>
+            <span className={style.arrow}>
               <AiOutlineArrowRight />
             </span>
           </div>
@@ -34,7 +34,7 @@ export default function Service() {
               <h2>Uber Moto</h2>
               <p>Get affordable uber auto ride with no hangling.</p>
             </div>
-            <span>
+            <span className={style.arrow}>
               <AiOutlineArrowRight />
             </span>
           </div>
@@ -51,7 +51,7 @@ export default function Service() {
               <p>Get affordable uber auto ride with no hangling.</p>
             </div>
             <span>
-              <AiOutlineArrowRight />
+              <AiOutlineArrowRight className={style.arrow}/>
             </span>
           </div>
 
@@ -76,7 +76,7 @@ export default function Service() {
       </div>
 
       <div className={style.safe}>
-        <div className="img">
+        <div className={style.img}>
           <img
             src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_499,h_333/v1613520218/assets/3e/e98625-31e6-4536-8646-976a1ee3f210/original/Safety_Home_Img2x.png"
             alt=""
@@ -109,7 +109,7 @@ export default function Service() {
               src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_84,h_84/v1618459257/assets/13/6bfdbd-cdb6-4221-92c1-cab1feaa39f3/original/Rider-App-logo.png"
               alt=""
             />
-            <p>Downlode the Uber App</p>
+            <p>Download the Driver App</p>
           </div>
 
           <div className={style.imgs}>
@@ -117,7 +117,7 @@ export default function Service() {
               src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_84,h_84/v1618459257/assets/13/6bfdbd-cdb6-4221-92c1-cab1feaa39f3/original/Rider-App-logo.png"
               alt=""
             />
-            <p>Downlode the Uber App</p>
+            <p>Download the Uber App</p>
           </div>
         </div>
       </div>
